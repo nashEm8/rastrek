@@ -1,0 +1,39 @@
+@import './components/variaveis.css';
+@import './components/topo.css';
+@import './components/banner.css';
+@import './components/vantagens.css';
+@import './components/questions.css';
+@import './components/about.css';
+@import './components/footer.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none!important;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #292929;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #f5c017;
+    width: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #f5c017;
+  }
+
+.text-destaque{
+    color: var(--color-principal);
+}

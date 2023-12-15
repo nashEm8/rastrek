@@ -1,0 +1,52 @@
+#questions{
+    overflow-x: hidden;
+    padding-bottom: 100px;
+}
+
+#questions .title-vantagens h3{
+    font-family: var(--font3);
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-top: 100px;
+}
+
+#questions .title-vantagens h3,
+.nav-pills .nav-link{
+    font-weight: 700;
+}
+
+#questions .responses{
+    padding-left: 20px;
+    margin-top: 8px;
+}
+
+#questions .title-vantagens h3,
+#questions .responses .tab-pane,
+.nav-pills .nav-link,
+.nav-pills:hover .nav-link{
+    color: #0a0d20;
+}
+
+#questions .responses .tab-pane{
+    font-weight: 500;
+}
+
+#questions .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #0a0d20;
+}
+
+@media only screen and (max-width: 760px){
+    #questions .box-questions{
+        flex-direction: column;
+    }
+
+    #questions .responses{
+        padding: 0;
+    }
+
+    #questions .box-questions .tab-content{
+        margin-top: 40px;
+        text-align: justify;
+    }
+}

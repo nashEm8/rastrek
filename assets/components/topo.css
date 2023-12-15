@@ -1,0 +1,41 @@
+header{
+    background-color: rgb(0, 27, 53);
+    border-bottom: 2px solid var(--color-principal);
+    padding: 10px 0;
+}
+
+header img{
+    width: 200px;
+}
+
+header .menuIcon i{
+    font-size: 40px;
+}
+
+header .menu ul{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .menu li a{
+    color: var(--color-principal);
+    font-family: var(--font3);
+    text-transform: uppercase;
+    margin: 0 15px;
+    font-weight: 700;
+    text-align: left;
+}
+
+header .menu li:hover{
+    background-color: var(--color-principal);
+    transition: all 0.5s;
+}
+
+header .menu li:hover a{
+    color: var(--bg);
+}
+
+header .navbar-toggler{
+    color: var(--color-principal);
+}

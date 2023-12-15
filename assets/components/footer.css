@@ -1,0 +1,84 @@
+footer{
+    background-color: #000;
+    padding: 50px 0;
+}
+
+footer section{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer section img{
+    width: 250px;
+    margin: auto;
+}
+
+footer h4{
+    font-size: 18px;
+    color: rgb(245, 100, 100);
+}
+
+footer section i{
+    color: #fff;
+    font-size: 30px;
+}
+
+footer section i:hover{
+    color: var(--color-principal);
+}
+
+section .scrollTop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 30px;
+    bottom: 40px;
+    cursor: pointer;
+    transition: all;
+    outline: none;
+    border: 0;
+    background-color: transparent;
+    width: 60px;
+    height: 60px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s ease;
+}
+
+section .scrollTop.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+section .scrollTop i{
+    color: rgb(245, 100, 100);
+    font-size: 50px;
+}
+
+/* Responsividade */
+@media only screen and (max-width: 990px){
+    footer .center-footer h4,
+    footer .right-footer p{
+        text-align: center;
+    }
+
+    footer .right-footer{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding-top: 25px;
+    }
+
+    footer .right-footer p{
+        display: none;
+    }
+
+    footer .center-footer{
+        display: none;
+    }
+
+    footer section div:nth-child(2){
+        display: none;
+    }
+}

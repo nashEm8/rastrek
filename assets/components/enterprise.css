@@ -1,0 +1,15 @@
+#enterprise{
+    background-color: var(--bg);
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logos img{
+    width: 200px;
+    margin: 0 2rem;
+}
